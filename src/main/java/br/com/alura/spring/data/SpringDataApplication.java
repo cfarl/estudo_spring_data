@@ -33,11 +33,13 @@ public class SpringDataApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		Scanner scanner = new Scanner(System.in);
 
-		while (true) {
+		while (true) {			
+			System.out.println("---------------------------------------------------------------------");
 			System.out.println("Qual função deseja executar?");
 			System.out.println("0 - Sair");
 			System.out.println("1 - Funcionario");
 			System.out.println("2 - Relatorios");
+			System.out.print("Informe uma opcao: ");
 
 			Integer funcao = scanner.nextInt();
 

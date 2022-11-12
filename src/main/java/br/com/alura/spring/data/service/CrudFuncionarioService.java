@@ -25,12 +25,14 @@ public class CrudFuncionarioService {
 	//------------------------------------------------
 	public void selecionaAcao(Scanner scanner) {
 		while(true) {
+			System.out.println("---------------------------------------------------------------------");
 			System.out.println("Qual acao de funcionario deseja executar?");
 			System.out.println("0 - Sair");
 			System.out.println("1 - Salvar");
 			System.out.println("2 - Atualizar");
 			System.out.println("3 - Visualizar");
 			System.out.println("4 - Deletar");
+			System.out.print("Informe uma opcao: ");
 			
 			int acao = scanner.nextInt();
 			
