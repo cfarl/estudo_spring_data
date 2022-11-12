@@ -1,4 +1,4 @@
-package br.com.alura.spring.data.orm;
+package br.com.luizcurado.springdata.model;
 
 public interface FuncionarioProjecao {
 	Integer getId();

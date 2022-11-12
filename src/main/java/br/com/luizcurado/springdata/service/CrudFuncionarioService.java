@@ -1,7 +1,5 @@
-package br.com.alura.spring.data.service;
+package br.com.luizcurado.springdata.service;
 
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,8 +9,8 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
-import br.com.alura.spring.data.orm.Funcionario;
-import br.com.alura.spring.data.repository.FuncionarioRepository;
+import br.com.luizcurado.springdata.model.Funcionario;
+import br.com.luizcurado.springdata.repository.FuncionarioRepository;
 
 @Service
 public class CrudFuncionarioService {
@@ -60,16 +58,16 @@ public class CrudFuncionarioService {
 	//------------------------------------------------------
 	private void cadastrarFuncionario(Scanner scanner) {
 		// Pede os dados do funcionario
-		System.out.println("Digite o nome");
+		System.out.print("Digite o nome: ");
         String nome = scanner.next();
 
-        System.out.println("Digite o cpf");
+        System.out.print("Digite o cpf: ");
         String cpf = scanner.next();
 
-        System.out.println("Digite o salario");
+        System.out.print("Digite o salario: ");
         Double salario = scanner.nextDouble();
 
-        System.out.println("Digite a data de contracao");
+        System.out.print("Digite a data de contracao: ");
         String dataContratacao = scanner.next();
 
         // Carrega dados no objeto Funcionario
@@ -89,19 +87,19 @@ public class CrudFuncionarioService {
 	//------------------------------------------------------	
 	private void atualizar(Scanner scanner) {
 		// Pede os dados do funcionario
-		System.out.println("Digite o id");
+		System.out.print("Digite o id: ");
         Integer id = scanner.nextInt();
 
-        System.out.println("Digite o nome");
+        System.out.print("Digite o nome: ");
         String nome = scanner.next();
 
-        System.out.println("Digite o cpf");
+        System.out.print("Digite o cpf: ");
         String cpf = scanner.next();
 
-        System.out.println("Digite o salario");
+        System.out.print("Digite o salario: ");
         Double salario = scanner.nextDouble();
 
-        System.out.println("Digite a data de contracao");
+        System.out.print("Digite a data de contracao: ");
         String dataContratacao = scanner.next();
 
         // Carrega dados no objeto Funcionario

@@ -1,4 +1,4 @@
-package br.com.alura.spring.data;
+package br.com.luizcurado.springdata;
 
 import java.util.Scanner;
 
@@ -8,8 +8,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-import br.com.alura.spring.data.service.CrudFuncionarioService;
-import br.com.alura.spring.data.service.RelatoriosService;
+import br.com.luizcurado.springdata.service.CrudFuncionarioService;
+import br.com.luizcurado.springdata.service.RelatoriosService;
 
 @EnableJpaRepositories
 @SpringBootApplication

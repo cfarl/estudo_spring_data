@@ -1,4 +1,4 @@
-package br.com.alura.spring.data.service;
+package br.com.luizcurado.springdata.service;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -8,10 +8,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 
-import br.com.alura.spring.data.orm.Funcionario;
-import br.com.alura.spring.data.orm.FuncionarioProjecao;
-import br.com.alura.spring.data.repository.FuncionarioRepository;
-import br.com.alura.spring.data.service.specification.SpecificationFuncionario;
+import br.com.luizcurado.springdata.model.Funcionario;
+import br.com.luizcurado.springdata.model.FuncionarioProjecao;
+import br.com.luizcurado.springdata.repository.FuncionarioRepository;
+import br.com.luizcurado.springdata.service.specification.SpecificationFuncionario;
 
 @Service
 public class RelatoriosService {

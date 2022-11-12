@@ -1,10 +1,10 @@
-package br.com.alura.spring.data.service.specification;
+package br.com.luizcurado.springdata.service.specification;
 
 import java.time.LocalDate;
 
 import org.springframework.data.jpa.domain.Specification;
 
-import br.com.alura.spring.data.orm.Funcionario;
+import br.com.luizcurado.springdata.model.Funcionario;
 
 //------------------------------------------------------------
 /** Retricoes usadas na consulta por Specification */

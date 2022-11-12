@@ -1,4 +1,4 @@
-package br.com.alura.spring.data.service;
+package br.com.luizcurado.springdata.service;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

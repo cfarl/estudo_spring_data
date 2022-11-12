@@ -1,4 +1,4 @@
-package br.com.alura.spring.data.orm;
+package br.com.luizcurado.springdata.model;
 
 import java.time.LocalDate;
 
